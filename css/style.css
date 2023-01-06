@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("../font/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url("../font/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../font/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../font/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../font/Poppins-Regular.ttf");
+}
+p{
+    margin: 0;
+}
+.p1{
+    font-family: Montserrat-SemiBold;
+    color: #3E3B3B;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.p-2{
+    color: #0195DE;
+}
+.details{
+    font-family: Montserrat-Regular;
+    font-size: 1rem;
+    color: #3E3B3B;
+
+}
+.div-pra{
+    margin-bottom: 3rem;
+    font-family: Montserrat-Regular;
+    font-size: 1rem;
+    color: #292929;
+}
+
+.my-nav{
+    align-items: center;
+    margin-right: 0px;
+    justify-content: space-between;
+    /* margin-left: auto; */
+}
+.imggg{
+    width:80%;
+}
+.my-nav-item{
+    margin-right: 3rem;
+
+}
+button:hover{
+    background-color: #021620;
+}
+button{
+    font-family: Montserrat-SemiBold;
+    padding: 10px 3rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color:#0195DE;
+    color: #fff;
+}
+.logo2{
+    width: 10rem;
+    margin-right: 15rem;
+    margin-left: 3rem;
+}
+.img-1{
+    width: 15rem;
+}
+.des-img{
+    position: relative;
+    display: grid;
+    grid-template-columns:  auto;
+}
+.transition-text{
+    position: absolute;
+    top: 480px;
+    left: 50px;
+}
+/* .text-arround{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+} */
+.img-heading2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 2rem;
+}
+.product-img{
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+}
+.all-size{
+    /* padding: 10px 20px; */
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    align-content: space-between;
+}
+.secound-section{
+    margin: 9rem 0px;
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 2rem;
+}
+.heading-page{
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 17rem;
+    padding: 5rem 2rem;
+}
+.about-p{
+    font-family: Montserrat-SemiBold;
+    font-size: 1rem;
+}
+.about-p2{
+    font-family: Montserrat-SemiBold;
+    font-size: 1.4rem;
+    color: #3E3B3B;
+}
+.two-picture{
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 8rem;
+}
+.p-size{
+    font-family: Montserrat-SemiBold;
+    font-size: 3rem;
+    color: #3E3B3B;
+}
+.big-text{
+    background-color: #91D7FA;
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 4rem;
+    padding:1rem 2rem;
+    margin: 5rem 0px;
+}
+.third{
+    background-color: #2563EB;
+    color: #fff;
+}
+.third-title{
+    font-family: Poppins-SemiBold;
+    font-size:3rem ;
+    text-align: center;
+}
+.input1{
+    width: 40%;
+}
+.flex{
+    width: 100%;
+    padding: 4rem 0rem;
+    padding-left: 8rem;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #090914;
+    /* padding: 10px 4rem; */
+}
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem 2rem;
+}
+.icon{
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 1rem;
+}
+.text-img{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    gap: 1rem;
+}
+/* div{
+    padding: 1rem;
+} */
+.logo2{
+    /* width: 10rem; */
+}
+.logo-footer{
+    /* width: 20vw; */
+    /* padding-right: 5rem; */
+}
+a:active{   
+    color: rgb(208, 104, 243);
+}
+.p{
+    width: 3rem;
+    border: 2px solid #2563EB;
+    background-color: #2563EB;
+}
+a{
+    font-family: Montserrat-Medium;
+    color: #000;
+    font-size: 1rem;
+}
+.last-div{
+    color: #52525B;
+    font-size: 1rem;
+    font-family: Poppins-Regular;     
+}
+h2{
+    color: #2563EB;
+    font-family: Poppins-SemiBold;
+    font-size: 1rem;
+}
+.product-size{
+    width: 20rem;
+    margin-right: 10rem;
+}

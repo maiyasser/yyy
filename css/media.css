@@ -1,0 +1,224 @@
+@media (max-width : 1200px) {
+    .text-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+    }
+    .heading-page {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 17rem;
+    }
+    .img-1 {
+        width: 21rem;
+    }
+    .two-picture {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 17rem;
+    }
+    .text-arround{
+        text-align: center;
+    }
+    .product-size {
+        width: 100%;
+        margin-right: 10rem;
+    }
+}
+
+
+/* ///////////////////////// */
+@media (max-width : 992px) {
+    img{
+        width: 100%;
+    }
+    .p1{
+        font-size: 3rem;
+    }
+    .div-pra{
+        margin-bottom: 2rem;
+    }
+    /* .my-nav-item{
+        margin-right: 3rem;
+    } */
+    .logo2 {
+        display: none;
+    }
+    .img-1{
+        width: 17rem;
+    }
+    .des-img{
+        position: relative;
+        display: grid;
+        grid-template-columns:  auto;
+    }
+    .transition-text{
+        display: none;
+        position: absolute;
+        top: 471px;
+        left: 20px;
+    }
+    /* .text-arround{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+    } */
+    .img-heading2{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 2rem;
+    }
+    .product-img{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+    .all-size{
+        /* padding: 10px 20px; */
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+        align-content: space-between;
+    }
+    .secound-section{
+        margin: 9rem 0px;
+        display: grid;
+        grid-template-columns:  auto ;
+        gap: 10rem;
+    }
+    .heading-page{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 4rem;
+    }
+    .two-picture {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+    }
+    .big-text{
+        background-color: #91D7FA;
+        display: grid;
+        grid-template-columns:  auto;
+        gap: 4rem;
+        padding:1rem 10px;
+        margin: 10rem 0px;
+    }
+    .third{
+        background-color: #2563EB;
+        color: #fff;
+    }
+    .third-title{
+        font-family: Poppins-SemiBold;
+        font-size:3rem ;
+        text-align: center;
+    }
+    .input1{
+        width: 40%;
+    }
+    .flex{
+        padding: 4rem 0rem;
+        padding-left: 8rem;
+        align-items: center;
+    }
+    .btn-primary{
+        background-color: #090914;
+        /* padding: 10px 4rem; */
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        gap: 5rem;
+    }
+    .icon{
+        display: grid;
+        grid-template-columns:  auto auto auto auto;
+        gap: 1rem;
+        align-items: center;
+    }
+    .img-icons{
+        width: 5rem;
+    }
+    .text-img {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns:auto;
+        gap: 1rem;
+    }
+    .logo3{
+        width: 50%;
+        margin: auto;
+    }
+    .logo-footer {
+        align-items: center;
+        text-align: center;
+
+    }
+    .product-size {
+        width: 100%;
+        margin-right: 0rem;
+    }
+/* }
+@media (max-width : 400px) { */
+
+    .text-img {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+    .heading-page {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 17rem;
+    }
+    .img-1 {
+        width: 24rem;
+    }
+    .two-picture {
+        display: grid;
+        grid-template-columns: auto;
+        gap:2rem;
+    }
+    .text-arround{
+        text-align: center;
+    }
+    .product-size {
+        width: 100%;
+        /* margin-right: 10rem; */
+    }
+    .img-heading2 {
+        display: grid;
+        grid-template-columns: auto;
+        gap:2rem;
+    }
+    .big-text {
+        width: 100%;
+
+    }
+    .img-1 {
+        width: 100%;
+    }
+    .transition-text {
+        position: absolute;
+        top: 532px;
+        left: 20px;
+    }
+    .big-text{
+        width: 100%;
+    }
+    .imggg {
+        width: 100%;
+    }
+    .p-size {
+        font-family: Montserrat-SemiBold;
+        font-size: 2rem;
+        color: #3E3B3B;
+    }
+    .input1{
+        width: 100%;
+    }
+}
+
